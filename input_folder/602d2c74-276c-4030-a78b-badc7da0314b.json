@@ -1,0 +1,1719 @@
+{
+ "Name": "INV-LASKUPDF2021.xlsx",
+ "Md5": "a02faeb3f5e0a92bea44e54506008a9b",
+ "UUID": "602d2c74-276c-4030-a78b-badc7da0314b",
+ "Processes": [
+  {
+   "OID": "600833c3199e90306b85b1b6",
+   "ProcessID": 3376,
+   "ParentPID": 464,
+   "CommandLine": "\"C:\\Program Files\\Microsoft Office\\Office14\\EXCEL.EXE\" /dde",
+   "Image": "C:\\Program Files\\Microsoft Office\\Office14\\EXCEL.EXE",
+   "ProcessType": "Main process",
+   "CreationTimestamp": 1611150275193,
+   "Registry": 620,
+   "Files": 1574,
+   "Modules": 132,
+   "DroppedFiles": 13,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 10,
+   "Scores_Network": true,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "OFS"
+  },
+  {
+   "OID": "600833e3199e90306b85cad2",
+   "ProcessID": 3620,
+   "ParentPID": 588,
+   "CommandLine": "\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" -startmediumtab -Embedding",
+   "Image": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+   "ProcessType": "Embedded COM++",
+   "CreationTimestamp": 1611150307052,
+   "Registry": 341,
+   "Files": 1414,
+   "Modules": 114,
+   "DroppedFiles": 4,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 13,
+   "Scores_Network": true,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-IE"
+  },
+  {
+   "OID": "600833e3199e90306b85cc20",
+   "ProcessID": 3156,
+   "ParentPID": 3620,
+   "CommandLine": "\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" SCODEF:3620 CREDAT:144385 /prefetch:2",
+   "Image": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611150307255,
+   "Registry": 85,
+   "Files": 380,
+   "Modules": 89,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-IE"
+  },
+  {
+   "OID": "600833e4199e90306b85d2f4",
+   "ProcessID": 3644,
+   "ParentPID": 3620,
+   "CommandLine": "\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" SCODEF:3620 CREDAT:333058 /prefetch:2",
+   "Image": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611150307630,
+   "Registry": 306,
+   "Files": 1549,
+   "Modules": 174,
+   "DroppedFiles": 10,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 19,
+   "Scores_Network": true,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-IE"
+  }
+ ],
+ "Incidents": [
+  {
+   "ProcessOID": "600833c3199e90306b85b1a7",
+   "ThreatLevel": 1,
+   "MitreAttacks": null
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1130"
+   ]
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1130"
+   ]
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1012"
+   ]
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cc20",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1012"
+   ]
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1012"
+   ]
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1012"
+   ]
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1112"
+   ]
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1106"
+   ]
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b19e",
+   "ThreatLevel": 1,
+   "MitreAttacks": null
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "ThreatLevel": 1,
+   "MitreAttacks": null
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1012"
+   ]
+  },
+  {
+   "ProcessOID": "600833c5199e90306b85c1a1",
+   "ThreatLevel": 2,
+   "MitreAttacks": [
+    "T1053"
+   ]
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1012"
+   ]
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1ae",
+   "ThreatLevel": 0,
+   "MitreAttacks": null
+  }
+ ],
+ "Ips": [
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "ProcessName": "EXCEL.EXE",
+   "Domain": "ewr1.vultrobjects.com",
+   "IP": "108.61.0.122",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 759,
+   "Recv": 6303,
+   "Type": 0
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "ProcessName": "EXCEL.EXE",
+   "Domain": "ocsp.comodoca.com",
+   "IP": "151.139.128.14",
+   "Port": 80,
+   "Prot": "tcp",
+   "Send": 231,
+   "Recv": 1361,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "ProcessName": "EXCEL.EXE",
+   "Domain": "ocsp.comodoca.com",
+   "IP": "151.139.128.14",
+   "Port": 80,
+   "Prot": "tcp",
+   "Send": 234,
+   "Recv": 1172,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "ProcessName": "EXCEL.EXE",
+   "Domain": "ocsp.comodoca.com",
+   "IP": "151.139.128.14",
+   "Port": 80,
+   "Prot": "tcp",
+   "Send": 232,
+   "Recv": 916,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "ProcessName": "iexplore.exe",
+   "Domain": "ewr1.vultrobjects.com",
+   "IP": "108.61.0.122",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 695,
+   "Recv": 6303,
+   "Type": 0
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "ProcessName": "iexplore.exe",
+   "Domain": "ewr1.vultrobjects.com",
+   "IP": "108.61.0.122",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 338,
+   "Recv": 5024,
+   "Type": 0
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "ProcessName": "iexplore.exe",
+   "Domain": "henalluxwbe.gb.net",
+   "IP": "104.129.25.9",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1209,
+   "Recv": 5567,
+   "Type": 1
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "ProcessName": "iexplore.exe",
+   "Domain": "henalluxwbe.gb.net",
+   "IP": "104.129.25.9",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 335,
+   "Recv": 3552,
+   "Type": 1
+  },
+  {
+   "ProcessOID": "",
+   "ProcessName": "",
+   "Domain": "crl.identrust.com",
+   "IP": "23.55.163.73",
+   "Port": 80,
+   "Prot": "tcp",
+   "Send": 135,
+   "Recv": 2961,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "",
+   "ProcessName": "",
+   "Domain": "crl.identrust.com",
+   "IP": "23.55.163.73",
+   "Port": 80,
+   "Prot": "tcp",
+   "Send": 135,
+   "Recv": 2961,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "ProcessName": "iexplore.exe",
+   "Domain": "ewr1.vultrobjects.com",
+   "IP": "108.61.0.122",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 615,
+   "Recv": 5349,
+   "Type": 0
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "ProcessName": "iexplore.exe",
+   "Domain": "ewr1.vultrobjects.com",
+   "IP": "108.61.0.122",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 338,
+   "Recv": 5024,
+   "Type": 0
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "ProcessName": "iexplore.exe",
+   "Domain": "www.bing.com",
+   "IP": "204.79.197.200",
+   "Port": 80,
+   "Prot": "tcp",
+   "Send": 201,
+   "Recv": 566,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "ProcessName": "iexplore.exe",
+   "Domain": "www.bing.com",
+   "IP": "204.79.197.200",
+   "Port": 80,
+   "Prot": "tcp",
+   "Send": 0,
+   "Recv": 0,
+   "Type": 3
+  }
+ ],
+ "Domain": [
+  {
+   "Domain": "ewr1.vultrobjects.com",
+   "Ips": [
+    "108.61.0.122"
+   ],
+   "Status": 1,
+   "Type": 0
+  },
+  {
+   "Domain": "ocsp.comodoca.com",
+   "Ips": [
+    "151.139.128.14"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "ocsp.usertrust.com",
+   "Ips": [
+    "151.139.128.14"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "ocsp.sectigo.com",
+   "Ips": [
+    "151.139.128.14"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "henalluxwbe.gb.net",
+   "Ips": [
+    "104.129.25.9"
+   ],
+   "Status": 1,
+   "Type": 0
+  },
+  {
+   "Domain": "crl.identrust.com",
+   "Ips": [
+    "23.55.163.73",
+    "23.55.163.57"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "crl.identrust.com",
+   "Ips": [
+    "23.55.163.73",
+    "23.55.163.57"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "api.bing.com",
+   "Ips": [
+    "13.107.13.80"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "www.bing.com",
+   "Ips": [
+    "204.79.197.200",
+    "13.107.21.200"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "www.bing.com",
+   "Ips": [
+    "13.107.21.200",
+    "204.79.197.200"
+   ],
+   "Status": 1,
+   "Type": 3
+  }
+ ],
+ "HttpRequests": [
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "ProcessName": "EXCEL.EXE",
+   "URL": "/MFEwTzBNMEswSTAJBgUrDgMCGgUABBRTtU9uFqgVGHhJwXZyWCNXmVR5ngQUoBEKIz6W8Qfs4q8p74Klf9AwpLQCEDlyRDr5IrdR19NsEN0xNZU%3D",
+   "Method": "GET",
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "ProcessName": "EXCEL.EXE",
+   "URL": "/MFEwTzBNMEswSTAJBgUrDgMCGgUABBTNMNJMNDqCqx8FcBWK16EHdimS6QQUU3m%2FWqorSs9UgOHYm8Cd8rIDZssCEH1bUSa0droR23QWC7xTDac%3D",
+   "Method": "GET",
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "ProcessName": "EXCEL.EXE",
+   "URL": "/MFEwTzBNMEswSTAJBgUrDgMCGgUABBRDC9IOTxN6GmyRjyTl2n4yTUczyAQUjYxexFStiuF36Zv5mwXhuAGNYeECECyQkW3CZCF%2BIp3HGytgcao%3D",
+   "Method": "GET",
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "ProcessName": "iexplore.exe",
+   "URL": "/DSTROOTCAX3CRL.crl",
+   "Method": "GET",
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "ProcessName": "iexplore.exe",
+   "URL": "/DSTROOTCAX3CRL.crl",
+   "Method": "GET",
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "ProcessName": "iexplore.exe",
+   "URL": "/favicon.ico",
+   "Method": "GET",
+   "Type": 3
+  }
+ ],
+ "Threats": [],
+ "Registries": [
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\StartupItems",
+   "Value": "3E342E00300D0000010000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel",
+   "Value": "300D00005420926332EFD60100000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\StartupItems",
+   "Value": "3E342E00300D0000010000000000000000000000",
+   "Operation": "delete value",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\StartupItems",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\DocumentRecovery\\E4E2",
+   "Value": "04000000300D00003700000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0049004E0056002D004C00410053004B00550050004400460032003000320031002E0078006C0073007800000000002200000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0001000000000000000081936432EFD601E2E40000E2E4000000000000AC020000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\DocumentRecovery\\E4E2",
+   "Value": "04000000300D00003700000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0049004E0056002D004C00410053004B00550050004400460032003000320031002E0078006C0073007800000000002200000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0001000000000000000081936432EFD601E2E40000E2E4000000000000AC020000001800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109D30000000000000000F01FEC\\Usage",
+   "Value": "1379139623",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109D30000000000000000F01FEC\\Usage",
+   "Value": "1379139768",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\DocumentRecovery\\E4E2",
+   "Value": "04000000300D00003700000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0049004E0056002D004C00410053004B00550050004400460032003000320031002E0078006C0073007800000000002200000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0001000000000000000081936432EFD601E2E40000E2E4000000000000AC020000001800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "Operation": "delete value",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\DocumentRecovery\\E4E2",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\DocumentRecovery",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\DocumentRecovery\\E58E",
+   "Value": "04000000300D00003700000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0049004E0056002D004C00410053004B00550050004400460032003000320031002E0078006C0073007800000000002200000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0001000000010000002AAB7C6332EFD6018EE500008EE5000000000000AC020000640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Place MRU",
+   "Value": "25",
+   "Operation": "delete value",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Place MRU",
+   "Value": "25",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Place MRU",
+   "Value": "[F00000000][T01D56F99396E0A50][O00000000]*C:\\Users\\admin\\Documents\\",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Place MRU",
+   "Value": "[F00000000][T01D56F99396E0A50][O00000000]*C:\\Users\\admin\\Documents\\",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\File MRU",
+   "Value": "25",
+   "Operation": "delete value",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\File MRU",
+   "Value": "25",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\File MRU",
+   "Value": "[F00000000][T01D56F99396E0A50][O00000000]*C:\\Users\\admin\\Documents\\test.xlsx",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\File MRU",
+   "Value": "[F00000000][T01D56F99396E0A50][O00000000]*C:\\Users\\admin\\Documents\\test.xlsx",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\Licensing",
+   "Value": "01000000270000007B39303134303030302D303033442D303030302D303030302D3030303030303046463143457D005A0000004F00660066006900630065002000310034002C0020004F0066006600690063006500500072006F00660065007300730069006F006E0061006C002D00520065007400610069006C002000650064006900740069006F006E000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections",
+   "Value": "46000000A5000000010000000000000000000000000000000000000000000000C0E333BBEAB1D301000000000000000000000000020000001700000000000000FE800000000000007D6CB050D9C573F70B000000000000006D00330032005C004D00530049004D004700330032002E0064006C000100000004AA400014AA4000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000C0A8016400000000000000000000000000000000000000000800000000000000805D3F00983740000008000002000000000000600000002060040000B8A94000020000008802000060040000B8A9400004000000F8010000B284000088B64000B84B400043003A000000000000000000000000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\Internet",
+   "Value": "https://ewr1.vultrobjects.com/themeamazondotcom/vdsfsdfdscdecsddefcs.html",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\Cache\\Content",
+   "Value": "",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\Cache\\Cookies",
+   "Value": "Cookie:",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\Cache\\History",
+   "Value": "Visited:",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\UrlBlockManager",
+   "Value": "2290208416",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\UrlBlockManager",
+   "Value": "30863154",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\Cache\\Content",
+   "Value": "",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\Cache\\Cookies",
+   "Value": "Cookie:",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\Cache\\History",
+   "Value": "Visited:",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Main",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections",
+   "Value": "46000000A6000000010000000000000000000000000000000000000000000000C0E333BBEAB1D301000000000000000000000000020000001700000000000000FE800000000000007D6CB050D9C573F70B000000000000006D00330032005C004D00530049004D004700330032002E0064006C000100000004AA400014AA4000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000C0A8016400000000000000000000000000000000000000000800000000000000805D3F00983740000008000002000000000000600000002060040000B8A94000020000008802000060040000B8A9400004000000F8010000B284000088B64000B84B400043003A000000000000000000000000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Recovery\\Active",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Main",
+   "Value": "no",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Main\\WindowsSearch",
+   "Value": "4051C67632EFD601",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Recovery\\PendingRecovery",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Main\\WindowsSearch",
+   "Value": "4051C67632EFD601",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "3",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "7",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "E5070100030014000D002D000700CA01",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "6",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "3",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "7",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "E5070100030014000D002D000700CA01",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "6",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{DBC80044-A445-435B-BC74-9C25C1C588A9}\\iexplore",
+   "Value": "3",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{DBC80044-A445-435B-BC74-9C25C1C588A9}\\iexplore",
+   "Value": "7",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{DBC80044-A445-435B-BC74-9C25C1C588A9}\\iexplore",
+   "Value": "E5070100030014000D002D000700CA01",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{DBC80044-A445-435B-BC74-9C25C1C588A9}\\iexplore",
+   "Value": "6",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "3",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "8",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "E5070100030014000D002D0007004103",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "7",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "3",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "8",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "E5070100030014000D002D0007004103",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "7",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{DBC80044-A445-435B-BC74-9C25C1C588A9}\\iexplore",
+   "Value": "3",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{DBC80044-A445-435B-BC74-9C25C1C588A9}\\iexplore",
+   "Value": "8",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{DBC80044-A445-435B-BC74-9C25C1C588A9}\\iexplore",
+   "Value": "E5070100030014000D002D0007004103",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{DBC80044-A445-435B-BC74-9C25C1C588A9}\\iexplore",
+   "Value": "7",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\SystemCertificates\\AuthRoot\\Certificates\\2B8F1B57330DBBA2D07A6C51F70EE90DDAB9AD8E",
+   "Value": "0400000001000000100000001BFE69D191B71933A372A80FE155E5B50F000000010000003000000066B764A96581128168CF208E374DDA479D54E311F32457F4AEE0DBD2A6C8D171D531289E1CD22BFDBBD4CFD9796254830300000001000000140000002B8F1B57330DBBA2D07A6C51F70EE90DDAB9AD8E0B00000001000000100000005300650063007400690067006F0000001D0000000100000010000000885010358D29A38F059B028559C95F901400000001000000140000005379BF5AAA2B4ACF5480E1D89BC09DF2B20366CB620000000100000020000000E793C9B02FD8AA13E21C31228ACCB08119643B749C898964B1746D46C3D4CBD253000000010000002600000030243022060C2B06010401B231010201050130123010060A2B0601040182373C0101030200C0090000000100000054000000305206082B0601050507030106082B0601050507030206082B0601050507030406082B0601050507030306082B06010505070308060A2B0601040182370A030406082B0601050507030606082B06010505070307190000000100000010000000EA6089055218053DD01E37E1D806EEDF2000000001000000E2050000308205DE308203C6A003020102021001FD6D30FCA3CA51A81BBC640E35032D300D06092A864886F70D01010C0500308188310B3009060355040613025553311330110603550408130A4E6577204A6572736579311430120603550407130B4A65727365792043697479311E301C060355040A131554686520555345525452555354204E6574776F726B312E302C06035504031325555345525472757374205253412043657274696669636174696F6E20417574686F72697479301E170D3130303230313030303030305A170D3338303131383233353935395A308188310B3009060355040613025553311330110603550408130A4E6577204A6572736579311430120603550407130B4A65727365792043697479311E301C060355040A131554686520555345525452555354204E6574776F726B312E302C06035504031325555345525472757374205253412043657274696669636174696F6E20417574686F7269747930820222300D06092A864886F70D01010105000382020F003082020A028202010080126517360EC3DB08B3D0AC570D76EDCD27D34CAD508361E2AA204D092D6409DCCE899FCC3DA9ECF6CFC1DCF1D3B1D67B3728112B47DA39C6BC3A19B45FA6BD7D9DA36342B676F2A93B2B91F8E26FD0EC162090093EE2E874C918B491D46264DB7FA306F188186A90223CBCFE13F087147BF6E41F8ED4E451C61167460851CB8614543FBC33FE7E6C9CFF169D18BD518E35A6A766C87267DB2166B1D49B7803C0503AE8CCF0DCBC9E4CFEAF0596351F575AB7FFCEF93DB72CB6F654DDC8E7123A4DAE4C8AB75C9AB4B7203DCA7F2234AE7E3B68660144E7014E46539B3360F794BE5337907343F332C353EFDBAAFE744E69C76B8C6093DEC4C70CDFE132AECC933B517895678BEE3D56FE0CD0690F1B0FF325266B336DF76E47FA7343E57E0EA566B1297C3284635589C40DC19354301913ACD37D37A7EB5D3A6C355CDB41D712DAA9490BDFD8808A0993628EB566CF2588CD84B8B13FA4390FD9029EEB124C957CF36B05A95E1683CCB867E2E8139DCC5B82D34CB3ED5BFFDEE573AC233B2D00BF3555740949D849581A7F9236E651920EF3267D1C4D17BCC9EC4326D0BF415F40A94444F499E757879E501F5754A83EFD74632FB1506509E658422E431A4CB4F0254759FA041E93D426464A5081B2DEBE78B7FC6715E1C957841E0F63D6E962BAD65F552EEA5CC62808042539B80E2BA9F24C971C073F0D52F5EDEF2F820F0203010001A3423040301D0603551D0E041604145379BF5AAA2B4ACF5480E1D89BC09DF2B20366CB300E0603551D0F0101FF040403020106300F0603551D130101FF040530030101FF300D06092A864886F70D01010C050003820201005CD47C0DCFF7017D4199650C73C5529FCBF8CF99067F1BDA43159F9E0255579614F1523C27879428ED1F3A0137A276FC5350C0849BC66B4EBA8C214FA28E556291F36915D8BC88E3C4AA0BFDEFA8E94B552A06206D55782919EE5F305C4B241155FF249A6E5E2A2BEE0B4D9F7FF70138941495430709FB60A9EE1CAB128CA09A5EA7986A596D8B3F08FBC8D145AF18156490120F73282EC5E2244EFC58ECF0F445FE22B3EB2F8ED2D9456105C1976FA876728F8B8C36AFBF0D05CE718DE6A66F1F6CA67162C5D8D083720CF16711890C9C134C7234DFBCD571DFAA71DDE1B96C8C3C125D65DABD5712B6436BFFE5DE4D661151CF99AEEC17B6E871918CDE49FEDD3571A21527941CCF61E326BB6FA36725215DE6DD1D0B2E681B3B82AFEC836785D4985174B1B9998089FF7F78195C794A602E9240AE4C372A2CC9C762C80E5DF7365BCAE0252501B4DD1A079C77003FD0DCD5EC3DD4FABB3FCC85D66F7FA92DDFB902F7F5979AB535DAC367B0874AA9289E238EFF5C276BE1B04FF307EE002ED45987CB524195EAF447D7EE6441557C8D590295DD629DC2B9EE5A287484A59BB790C70C07DFF589367432D628C1B0B00BE09C4CC31CD6FCE369B54746812FA282ABD3634470C48DFF2D33BAAD8F7BB57088AE3E19CF4028D8FCC890BB5D9922F552E658C51F883143EE881DD7C68E3C436A1DA718DE7D3D16F162F9CA90A8FD",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\SystemCertificates\\AuthRoot\\Certificates\\2B8F1B57330DBBA2D07A6C51F70EE90DDAB9AD8E",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\SystemCertificates\\AuthRoot\\Certificates\\2B8F1B57330DBBA2D07A6C51F70EE90DDAB9AD8E",
+   "Value": "0400000001000000100000001BFE69D191B71933A372A80FE155E5B50F000000010000003000000066B764A96581128168CF208E374DDA479D54E311F32457F4AEE0DBD2A6C8D171D531289E1CD22BFDBBD4CFD9796254830300000001000000140000002B8F1B57330DBBA2D07A6C51F70EE90DDAB9AD8E0B00000001000000100000005300650063007400690067006F0000001D0000000100000010000000885010358D29A38F059B028559C95F901400000001000000140000005379BF5AAA2B4ACF5480E1D89BC09DF2B20366CB620000000100000020000000E793C9B02FD8AA13E21C31228ACCB08119643B749C898964B1746D46C3D4CBD253000000010000002600000030243022060C2B06010401B231010201050130123010060A2B0601040182373C0101030200C0090000000100000054000000305206082B0601050507030106082B0601050507030206082B0601050507030406082B0601050507030306082B06010505070308060A2B0601040182370A030406082B0601050507030606082B06010505070307190000000100000010000000EA6089055218053DD01E37E1D806EEDF2000000001000000E2050000308205DE308203C6A003020102021001FD6D30FCA3CA51A81BBC640E35032D300D06092A864886F70D01010C0500308188310B3009060355040613025553311330110603550408130A4E6577204A6572736579311430120603550407130B4A65727365792043697479311E301C060355040A131554686520555345525452555354204E6574776F726B312E302C06035504031325555345525472757374205253412043657274696669636174696F6E20417574686F72697479301E170D3130303230313030303030305A170D3338303131383233353935395A308188310B3009060355040613025553311330110603550408130A4E6577204A6572736579311430120603550407130B4A65727365792043697479311E301C060355040A131554686520555345525452555354204E6574776F726B312E302C06035504031325555345525472757374205253412043657274696669636174696F6E20417574686F7269747930820222300D06092A864886F70D01010105000382020F003082020A028202010080126517360EC3DB08B3D0AC570D76EDCD27D34CAD508361E2AA204D092D6409DCCE899FCC3DA9ECF6CFC1DCF1D3B1D67B3728112B47DA39C6BC3A19B45FA6BD7D9DA36342B676F2A93B2B91F8E26FD0EC162090093EE2E874C918B491D46264DB7FA306F188186A90223CBCFE13F087147BF6E41F8ED4E451C61167460851CB8614543FBC33FE7E6C9CFF169D18BD518E35A6A766C87267DB2166B1D49B7803C0503AE8CCF0DCBC9E4CFEAF0596351F575AB7FFCEF93DB72CB6F654DDC8E7123A4DAE4C8AB75C9AB4B7203DCA7F2234AE7E3B68660144E7014E46539B3360F794BE5337907343F332C353EFDBAAFE744E69C76B8C6093DEC4C70CDFE132AECC933B517895678BEE3D56FE0CD0690F1B0FF325266B336DF76E47FA7343E57E0EA566B1297C3284635589C40DC19354301913ACD37D37A7EB5D3A6C355CDB41D712DAA9490BDFD8808A0993628EB566CF2588CD84B8B13FA4390FD9029EEB124C957CF36B05A95E1683CCB867E2E8139DCC5B82D34CB3ED5BFFDEE573AC233B2D00BF3555740949D849581A7F9236E651920EF3267D1C4D17BCC9EC4326D0BF415F40A94444F499E757879E501F5754A83EFD74632FB1506509E658422E431A4CB4F0254759FA041E93D426464A5081B2DEBE78B7FC6715E1C957841E0F63D6E962BAD65F552EEA5CC62808042539B80E2BA9F24C971C073F0D52F5EDEF2F820F0203010001A3423040301D0603551D0E041604145379BF5AAA2B4ACF5480E1D89BC09DF2B20366CB300E0603551D0F0101FF040403020106300F0603551D130101FF040530030101FF300D06092A864886F70D01010C050003820201005CD47C0DCFF7017D4199650C73C5529FCBF8CF99067F1BDA43159F9E0255579614F1523C27879428ED1F3A0137A276FC5350C0849BC66B4EBA8C214FA28E556291F36915D8BC88E3C4AA0BFDEFA8E94B552A06206D55782919EE5F305C4B241155FF249A6E5E2A2BEE0B4D9F7FF70138941495430709FB60A9EE1CAB128CA09A5EA7986A596D8B3F08FBC8D145AF18156490120F73282EC5E2244EFC58ECF0F445FE22B3EB2F8ED2D9456105C1976FA876728F8B8C36AFBF0D05CE718DE6A66F1F6CA67162C5D8D083720CF16711890C9C134C7234DFBCD571DFAA71DDE1B96C8C3C125D65DABD5712B6436BFFE5DE4D661151CF99AEEC17B6E871918CDE49FEDD3571A21527941CCF61E326BB6FA36725215DE6DD1D0B2E681B3B82AFEC836785D4985174B1B9998089FF7F78195C794A602E9240AE4C372A2CC9C762C80E5DF7365BCAE0252501B4DD1A079C77003FD0DCD5EC3DD4FABB3FCC85D66F7FA92DDFB902F7F5979AB535DAC367B0874AA9289E238EFF5C276BE1B04FF307EE002ED45987CB524195EAF447D7EE6441557C8D590295DD629DC2B9EE5A287484A59BB790C70C07DFF589367432D628C1B0B00BE09C4CC31CD6FCE369B54746812FA282ABD3634470C48DFF2D33BAAD8F7BB57088AE3E19CF4028D8FCC890BB5D9922F552E658C51F883143EE881DD7C68E3C436A1DA718DE7D3D16F162F9CA90A8FD",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\SystemCertificates\\AuthRoot\\Certificates\\D1EB23A46D17D68FD92564C2F1F1601764D8E349",
+   "Value": "040000000100000010000000497904B0EB8719AC47B0BC11519B74D00F00000001000000140000003E8E6487F8FD27D322A269A71EDAAC5D57811286030000000100000014000000D1EB23A46D17D68FD92564C2F1F1601764D8E3491D00000001000000100000002E0D6875874A44C820912E85E964CFDB140000000100000014000000A0110A233E96F107ECE2AF29EF82A57FD030A4B40B000000010000001C0000005300650063007400690067006F002000280041004100410029000000620000000100000020000000D7A7A0FB5D7E2731D771E9484EBCDEF71D5F0C3E0A2948782BC83EE0EA699EF453000000010000002600000030243022060C2B06010401B231010201050130123010060A2B0601040182373C0101030200C0090000000100000054000000305206082B0601050507030106082B0601050507030206082B0601050507030406082B0601050507030306082B06010505070308060A2B0601040182370A030406082B0601050507030606082B060105050703071900000001000000100000002AA1C05E2AE606F198C2C5E937C97AA2200000000100000036040000308204323082031AA003020102020101300D06092A864886F70D0101050500307B310B3009060355040613024742311B301906035504080C1247726561746572204D616E636865737465723110300E06035504070C0753616C666F7264311A3018060355040A0C11436F6D6F646F204341204C696D697465643121301F06035504030C18414141204365727469666963617465205365727669636573301E170D3034303130313030303030305A170D3238313233313233353935395A307B310B3009060355040613024742311B301906035504080C1247726561746572204D616E636865737465723110300E06035504070C0753616C666F7264311A3018060355040A0C11436F6D6F646F204341204C696D697465643121301F06035504030C1841414120436572746966696361746520536572766963657330820122300D06092A864886F70D01010105000382010F003082010A0282010100BE409DF46EE1EA76871C4D45448EBE46C883069DC12AFE181F8EE402FAF3AB5D508A16310B9A06D0C57022CD492D5463CCB66E68460B53EACB4C24C0BC724EEAF115AEF4549A120AC37AB23360E2DA8955F32258F3DEDCCFEF8386A28C944F9F68F29890468427C776BFE3CC352C8B5E07646582C048B0A891F9619F762050A891C766B5EB78620356F08A1A13EA31A31EA099FD38F6F62732586F07F56BB8FB142BAFB7AACCD6635F738CDA0599A838A8CB17783651ACE99EF4783A8DCF0FD942E2980CAB2F9F0E01DEEF9F9949F12DDFAC744D1B98B547C5E529D1F99018C7629CBE83C7267B3E8A25C7C0DD9DE6356810209D8FD8DED2C3849C0D5EE82FC90203010001A381C03081BD301D0603551D0E04160414A0110A233E96F107ECE2AF29EF82A57FD030A4B4300E0603551D0F0101FF040403020106300F0603551D130101FF040530030101FF307B0603551D1F047430723038A036A0348632687474703A2F2F63726C2E636F6D6F646F63612E636F6D2F414141436572746966696361746553657276696365732E63726C3036A034A0328630687474703A2F2F63726C2E636F6D6F646F2E6E65742F414141436572746966696361746553657276696365732E63726C300D06092A864886F70D010105050003820101000856FC02F09BE8FFA4FAD67BC64480CE4FC4C5F60058CCA6B6BC1449680476E8E6EE5DEC020F60D68D50184F264E01E3E6B0A5EEBFBC745441BFFDFC12B8C74F5AF48960057F60B7054AF3F6F1C2BFC4B97486B62D7D6BCCD2F346DD2FC6E06AC3C334032C7D96DD5AC20EA70A99C1058BAB0C2FF35C3ACF6C37550987DE53406C58EFFCB6AB656E04F61BDC3CE05A15C69ED9F15948302165036CECE92173EC9B03A1E037ADA015188FFABA02CEA72CA910132CD4E50826AB229760F8905E74D4A29A53BDF2A968E0A26EC2D76CB1A30F9EBFEB68E756F2AEF2E32B383A0981B56B85D7BE2DED3F1AB7B263E2F5622C82D46A004150F139839F95E93696986E",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\SystemCertificates\\AuthRoot\\Certificates\\D1EB23A46D17D68FD92564C2F1F1601764D8E349",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\SystemCertificates\\AuthRoot\\Certificates\\D1EB23A46D17D68FD92564C2F1F1601764D8E349",
+   "Value": "040000000100000010000000497904B0EB8719AC47B0BC11519B74D00F00000001000000140000003E8E6487F8FD27D322A269A71EDAAC5D57811286030000000100000014000000D1EB23A46D17D68FD92564C2F1F1601764D8E3491D00000001000000100000002E0D6875874A44C820912E85E964CFDB140000000100000014000000A0110A233E96F107ECE2AF29EF82A57FD030A4B40B000000010000001C0000005300650063007400690067006F002000280041004100410029000000620000000100000020000000D7A7A0FB5D7E2731D771E9484EBCDEF71D5F0C3E0A2948782BC83EE0EA699EF453000000010000002600000030243022060C2B06010401B231010201050130123010060A2B0601040182373C0101030200C0090000000100000054000000305206082B0601050507030106082B0601050507030206082B0601050507030406082B0601050507030306082B06010505070308060A2B0601040182370A030406082B0601050507030606082B060105050703071900000001000000100000002AA1C05E2AE606F198C2C5E937C97AA2200000000100000036040000308204323082031AA003020102020101300D06092A864886F70D0101050500307B310B3009060355040613024742311B301906035504080C1247726561746572204D616E636865737465723110300E06035504070C0753616C666F7264311A3018060355040A0C11436F6D6F646F204341204C696D697465643121301F06035504030C18414141204365727469666963617465205365727669636573301E170D3034303130313030303030305A170D3238313233313233353935395A307B310B3009060355040613024742311B301906035504080C1247726561746572204D616E636865737465723110300E06035504070C0753616C666F7264311A3018060355040A0C11436F6D6F646F204341204C696D697465643121301F06035504030C1841414120436572746966696361746520536572766963657330820122300D06092A864886F70D01010105000382010F003082010A0282010100BE409DF46EE1EA76871C4D45448EBE46C883069DC12AFE181F8EE402FAF3AB5D508A16310B9A06D0C57022CD492D5463CCB66E68460B53EACB4C24C0BC724EEAF115AEF4549A120AC37AB23360E2DA8955F32258F3DEDCCFEF8386A28C944F9F68F29890468427C776BFE3CC352C8B5E07646582C048B0A891F9619F762050A891C766B5EB78620356F08A1A13EA31A31EA099FD38F6F62732586F07F56BB8FB142BAFB7AACCD6635F738CDA0599A838A8CB17783651ACE99EF4783A8DCF0FD942E2980CAB2F9F0E01DEEF9F9949F12DDFAC744D1B98B547C5E529D1F99018C7629CBE83C7267B3E8A25C7C0DD9DE6356810209D8FD8DED2C3849C0D5EE82FC90203010001A381C03081BD301D0603551D0E04160414A0110A233E96F107ECE2AF29EF82A57FD030A4B4300E0603551D0F0101FF040403020106300F0603551D130101FF040530030101FF307B0603551D1F047430723038A036A0348632687474703A2F2F63726C2E636F6D6F646F63612E636F6D2F414141436572746966696361746553657276696365732E63726C3036A034A0328630687474703A2F2F63726C2E636F6D6F646F2E6E65742F414141436572746966696361746553657276696365732E63726C300D06092A864886F70D010105050003820101000856FC02F09BE8FFA4FAD67BC64480CE4FC4C5F60058CCA6B6BC1449680476E8E6EE5DEC020F60D68D50184F264E01E3E6B0A5EEBFBC745441BFFDFC12B8C74F5AF48960057F60B7054AF3F6F1C2BFC4B97486B62D7D6BCCD2F346DD2FC6E06AC3C334032C7D96DD5AC20EA70A99C1058BAB0C2FF35C3ACF6C37550987DE53406C58EFFCB6AB656E04F61BDC3CE05A15C69ED9F15948302165036CECE92173EC9B03A1E037ADA015188FFABA02CEA72CA910132CD4E50826AB229760F8905E74D4A29A53BDF2A968E0A26EC2D76CB1A30F9EBFEB68E756F2AEF2E32B383A0981B56B85D7BE2DED3F1AB7B263E2F5622C82D46A004150F139839F95E93696986E",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\User Preferences",
+   "Value": "01000000D08C9DDF0115D1118C7A00C04FC297EB010000009279BBABE4F8D0488C254D78C5B5A6BC00000000020000000000106600000001000020000000885A3A2E8736731AB234A7F25BDF9E5204941895621E9044F8C2984DA568FE0E000000000E8000000002000020000000E21ABBD0595CE37F122BDB0469BA858CEA0E88B728A9D5335C6BA0F456F465A950000000040AE094167BFE876AC40DABC6F653230AEBEC0B5B246FE2436F57152FE826403E1675C38287CB23DFB262027B09D2CA4E23EBBF299A04732604133710A61F04E2238EE097F91038DE1213299F41A27E40000000DC3D8FE7BCAD01A0CF57707CB0984BC9E26AA54BB37E19C403D9628FD05367BCDE3893C22E6642565106DB33213049FEDA66638F90A42A32298D3695BCCD73CD",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\EUPP\\DSP",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\User Preferences",
+   "Value": "01000000D08C9DDF0115D1118C7A00C04FC297EB010000009279BBABE4F8D0488C254D78C5B5A6BC00000000020000000000106600000001000020000000707EB576BA51376D8EF7095B07FC10D231BCAE494BE780DBD7C8A7CDDCB88583000000000E80000000020000200000007822189270B93ACF16317B499174F92A9157F3190CB6189256BCCE22A314D9FF100000002FF1ACA42F4BD51DCFA8AE6EF6E743414000000031FDA59EC31F808D589F0DE2E97B869743028F838F3B09E3B6F247805923475E5E16F89A4D9749B9A7CAB17E6B182F3415AAB178D40454D08376708CA18CD3A9",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "3",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "9",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "E5070100030014000D002D000F002203",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "8",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "3",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "9",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cc20",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cc20",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cc20",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cc20",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cc20",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cc20",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cc20",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cc20",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections",
+   "Value": "46000000A7000000010000000000000000000000000000000000000000000000C0E333BBEAB1D301000000000000000000000000020000001700000000000000FE800000000000007D6CB050D9C573F70B000000000000006D00330032005C004D00530049004D004700330032002E0064006C000100000004AA400014AA4000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000C0A8016400000000000000000000000000000000000000000800000000000000805D3F00983740000008000002000000000000600000002060040000B8A94000020000008802000060040000B8A9400004000000F8010000B284000088B64000B84B400043003A000000000000000000000000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cc20",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\Cache\\Content",
+   "Value": "",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cc20",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\Cache\\Cookies",
+   "Value": "Cookie:",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cc20",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\Cache\\History",
+   "Value": "Visited:",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\LowCache\\Content",
+   "Value": "",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\LowCache\\Cookies",
+   "Value": "Cookie:",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\LowCache\\History",
+   "Value": "Visited:",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  }
+ ],
+ "DropFile": [
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\CVRE03E.tmp.cvr",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 471,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\Content\\B2FAF7692FD9FFBD64EDE317E42334BA_D7393C8F62BDE4D4CB606228BC7A711E",
+   "ContentType": "der"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 396,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\MetaData\\B2FAF7692FD9FFBD64EDE317E42334BA_D7393C8F62BDE4D4CB606228BC7A711E",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 396,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\MetaData\\B2FAF7692FD9FFBD64EDE317E42334BA_D7393C8F62BDE4D4CB606228BC7A711E",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 402,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\MetaData\\07CEF2F654E3ED6050FFC9B6EB844250_3431D4C539FB2CFCB781821E9902850D",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 402,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\MetaData\\07CEF2F654E3ED6050FFC9B6EB844250_3431D4C539FB2CFCB781821E9902850D",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 727,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\Content\\07CEF2F654E3ED6050FFC9B6EB844250_3431D4C539FB2CFCB781821E9902850D",
+   "ContentType": "der"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\Cab5966.tmp",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 398,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\MetaData\\A25E2EA19D6753E7AC11BE943D28EF0E",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 398,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\MetaData\\A25E2EA19D6753E7AC11BE943D28EF0E",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 471,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\Content\\A25E2EA19D6753E7AC11BE943D28EF0E",
+   "ContentType": "der"
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\Tar5967.tmp",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600833c3199e90306b85b1b6",
+   "Size": 191,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\6Z2BCOUL\\vdsfsdfdscdecsddefcs[1].htm",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\Cab6ACB.tmp",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\Tar6ACC.tmp",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\Internet Explorer\\Services\\search_{0633EE93-D776-472f-A0FF-E1416B8B2E3A}.ico",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600833e3199e90306b85cad2",
+   "Size": 237,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\PO2HN1X2\\favicon[1].ico",
+   "ContentType": "image"
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\Low\\Cab6107.tmp",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\Low\\Tar6108.tmp",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Size": 191,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Low\\Content.IE5\\MFAQUS6V\\vdsfsdfdscdecsddefcs[1].htm",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Size": 244,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\MetaData\\644B8874112055B5E195ECB0E8F243A4",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Size": 244,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\MetaData\\644B8874112055B5E195ECB0E8F243A4",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Size": 1190,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\Content\\644B8874112055B5E195ECB0E8F243A4",
+   "ContentType": "der"
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Size": 244,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\MetaData\\644B8874112055B5E195ECB0E8F243A4",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Size": 244,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\MetaData\\644B8874112055B5E195ECB0E8F243A4",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Size": 1190,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\Content\\644B8874112055B5E195ECB0E8F243A4",
+   "ContentType": "der"
+  },
+  {
+   "ProcessOID": "600833e4199e90306b85d2f4",
+   "Size": 1159,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Low\\Content.IE5\\DY534W2X\\htgret5y435gtre45gtred45tgrefdc[2].htm",
+   "ContentType": "html"
+  }
+ ],
+ "ProModule": null
+}

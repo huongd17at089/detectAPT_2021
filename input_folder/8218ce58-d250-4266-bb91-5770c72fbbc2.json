@@ -1,0 +1,728 @@
+{
+ "Name": "Tracker Absenteeism.doc",
+ "Md5": "e4ef4b5e54e36a1a55dac1234b561e44",
+ "UUID": "8218ce58-d250-4266-bb91-5770c72fbbc2",
+ "Processes": [
+  {
+   "OID": "600ac7cbdb26b22a0f94cbe6",
+   "ProcessID": 1796,
+   "ParentPID": 356,
+   "CommandLine": "\"C:\\Program Files\\Microsoft Office\\Office14\\WINWORD.EXE\" /n \"C:\\Users\\admin\\AppData\\Local\\Temp\\Tracker Absenteeism.doc\"",
+   "Image": "C:\\Program Files\\Microsoft Office\\Office14\\WINWORD.EXE",
+   "ProcessType": "Main process",
+   "CreationTimestamp": 1611319243041,
+   "Registry": 13281,
+   "Files": 5406,
+   "Modules": 226,
+   "DroppedFiles": 12,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 9,
+   "Scores_Network": true,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "OFS"
+  }
+ ],
+ "Incidents": [
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1012"
+   ]
+  },
+  {
+   "ProcessOID": "600ac7cfdb26b22a0f94e245",
+   "ThreatLevel": 2,
+   "MitreAttacks": [
+    "T1053"
+   ]
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "ThreatLevel": 0,
+   "MitreAttacks": null
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1012"
+   ]
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94c429",
+   "ThreatLevel": 0,
+   "MitreAttacks": null
+  }
+ ],
+ "Ips": [
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "ProcessName": "WINWORD.EXE",
+   "Domain": "office14client.microsoft.com",
+   "IP": "52.109.76.68",
+   "Port": 80,
+   "Prot": "tcp",
+   "Send": 330,
+   "Recv": 5159,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "ProcessName": "WINWORD.EXE",
+   "Domain": "rr.office.microsoft.com",
+   "IP": "52.109.120.28",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1998,
+   "Recv": 8468,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "ProcessName": "WINWORD.EXE",
+   "Domain": "ocsp.digicert.com",
+   "IP": "93.184.220.29",
+   "Port": 80,
+   "Prot": "tcp",
+   "Send": 241,
+   "Recv": 3042,
+   "Type": 4
+  }
+ ],
+ "Domain": [
+  {
+   "Domain": "office14client.microsoft.com",
+   "Ips": [
+    "52.109.76.68"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "rr.office.microsoft.com",
+   "Ips": [
+    "52.109.120.28"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "ocsp.digicert.com",
+   "Ips": [
+    "93.184.220.29"
+   ],
+   "Status": 1,
+   "Type": 4
+  }
+ ],
+ "HttpRequests": [
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "ProcessName": "WINWORD.EXE",
+   "URL": "/config14?UILCID=1033\u0026CLCID=1033\u0026ILCID=1033\u0026HelpLCID=1033\u0026App={019C826E-445A-4649-A5B0-0BF08FCC4EEE}\u0026build=14.0.6023",
+   "Method": "GET",
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "ProcessName": "WINWORD.EXE",
+   "URL": "/MFEwTzBNMEswSTAJBgUrDgMCGgUABBTBL0V27RVZ7LBduom%2FnYB45SPUEwQU5Z1ZMIJHWMys%2BghUNoZ7OrUETfACEA%2BnRyLFPYjID1ie%2Bx%2BdSjo%3D",
+   "Method": "GET",
+   "Type": 4
+  }
+ ],
+ "Threats": [],
+ "Registries": [
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "7B353F0004070000010000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109D30000000000000000F01FEC\\Usage",
+   "Value": "1379270718",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109D30000000000000000F01FEC\\Usage",
+   "Value": "1379270840",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109D30000000000000000F01FEC\\Usage",
+   "Value": "1379270841",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109F10021400000000000F01FEC\\Usage",
+   "Value": "1379270657",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word",
+   "Value": "0407000098AC41CCBBF0D60100000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "72373F000407000004000000000000008C00000001000000840000003E0043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C0052006F0061006D0069006E0067005C004D006900630072006F0073006F00660074005C00540065006D0070006C0061007400650073005C004E006F0072006D0061006C002E0064006F0074006D00000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "72373F000407000004000000000000008C00000001000000840000003E0043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C0052006F0061006D0069006E0067005C004D006900630072006F0073006F00660074005C00540065006D0070006C0061007400650073005C004E006F0072006D0061006C002E0064006F0074006D00000000000000",
+   "Operation": "delete value",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "3E383F000407000002000000000000008E00000001000000500000003200000063003A005C00700072006F006700720061007E0031005C006D006900630072006F0073007E0031005C006F0066006600690063006500310034005C00670065006E006B006F002E0064006C006C0000006D006900630072006F0073006F0066007400200077006F00720064002000D0C6E0ACC0C9200094CD00AC200030AEA5B20000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "3E383F000407000002000000000000008E00000001000000500000003200000063003A005C00700072006F006700720061007E0031005C006D006900630072006F0073007E0031005C006F0066006600690063006500310034005C00670065006E006B006F002E0064006C006C0000006D006900630072006F0073006F0066007400200077006F00720064002000D0C6E0ACC0C9200094CD00AC200030AEA5B20000",
+   "Operation": "delete value",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "363C3F000407000006000000010000008400000002000000740000000400000063003A005C00750073006500720073005C00610064006D0069006E005C0061007000700064006100740061005C006C006F00630061006C005C00740065006D0070005C0074007200610063006B0065007200200061006200730065006E00740065006500690073006D002E0064006F006300000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109D30000000000000000F01FEC\\Usage",
+   "Value": "1379270663",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Place MRU",
+   "Value": "25",
+   "Operation": "delete value",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Place MRU",
+   "Value": "25",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Place MRU",
+   "Value": "[F00000000][T01D56F995041B2E0][O00000000]*C:\\Users\\admin\\Documents\\",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Place MRU",
+   "Value": "[F00000000][T01D56F995041B2E0][O00000000]*C:\\Users\\admin\\Documents\\",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Place MRU",
+   "Value": "[F00000000][T01D56F98784E7EE0][O00000000]*C:\\Users\\admin\\Downloads\\",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Place MRU",
+   "Value": "[F00000000][T01D56F98784E7EE0][O00000000]*C:\\Users\\admin\\Downloads\\",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "25",
+   "Operation": "delete value",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "25",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D28F071F2B8200][O00000000]*C:\\Users\\admin\\Desktop\\magazinesincluding.rtf",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D28F071F2B8200][O00000000]*C:\\Users\\admin\\Desktop\\magazinesincluding.rtf",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D26668C69CF980][O00000000]*C:\\Users\\admin\\Desktop\\roomsboards.rtf",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D26668C69CF980][O00000000]*C:\\Users\\admin\\Desktop\\roomsboards.rtf",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D3C78E38B27780][O00000000]*C:\\Users\\admin\\Desktop\\yahoohomepage.rtf",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D3C78E38B27780][O00000000]*C:\\Users\\admin\\Desktop\\yahoohomepage.rtf",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D528BC0C97EE00][O00000000]*C:\\Users\\admin\\Desktop\\fundsoptions.rtf",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D528BC0C97EE00][O00000000]*C:\\Users\\admin\\Desktop\\fundsoptions.rtf",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D4E7EA18D96880][O00000000]*C:\\Users\\admin\\Desktop\\gettingfixed.rtf",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D4E7EA18D96880][O00000000]*C:\\Users\\admin\\Desktop\\gettingfixed.rtf",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D64917ECCE6E80][O00000000]*C:\\Users\\admin\\Desktop\\aboutip.rtf",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D64917ECCE6E80][O00000000]*C:\\Users\\admin\\Desktop\\aboutip.rtf",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D31D4BF8A02880][O00000000]*C:\\Users\\admin\\Desktop\\bodypage.rtf",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D31D4BF8A02880][O00000000]*C:\\Users\\admin\\Desktop\\bodypage.rtf",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D34601AA1A4D00][O00000000]*C:\\Users\\admin\\Documents\\providedcoast.rtf",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D34601AA1A4D00][O00000000]*C:\\Users\\admin\\Documents\\providedcoast.rtf",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D4A737E003D300][O00000000]*C:\\Users\\admin\\Documents\\elementsregistration.rtf",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D4A737E003D300][O00000000]*C:\\Users\\admin\\Documents\\elementsregistration.rtf",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D4665D8A72F800][O00000000]*C:\\Users\\admin\\Documents\\lyricshill.rtf",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D4665D8A72F800][O00000000]*C:\\Users\\admin\\Documents\\lyricshill.rtf",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D5C793C06C0D80][O00000000]*C:\\Users\\admin\\Documents\\languagestill.rtf",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D5C793C06C0D80][O00000000]*C:\\Users\\admin\\Documents\\languagestill.rtf",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D43DBF31E9F180][O00000000]*C:\\Users\\admin\\Documents\\understandingwood.rtf",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\File MRU",
+   "Value": "[F00000000][T01D43DBF31E9F180][O00000000]*C:\\Users\\admin\\Documents\\understandingwood.rtf",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\DocumentRecovery\\154DEC",
+   "Value": "04000000040700003900000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0054007200610063006B0065007200200041006200730065006E00740065006500690073006D002E0064006F0063001700000054007200610063006B0065007200200041006200730065006E00740065006500690073006D002E0064006F006300000000000100000000000000302338CCBBF0D601EC4D1500EC4D150000000000DB040000020000000000000000000000000000000000000000000000FFFFFFFF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000FFFFFFFF",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "363C3F000407000006000000010000008400000002000000740000000400000063003A005C00750073006500720073005C00610064006D0069006E005C0061007000700064006100740061005C006C006F00630061006C005C00740065006D0070005C0074007200610063006B0065007200200061006200730065006E00740065006500690073006D002E0064006F006300000000000000",
+   "Operation": "delete value",
+   "TypeValue": "REG_BINARY"
+  }
+ ],
+ "DropFile": [
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\CVR45FB.tmp.cvr",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Size": 162,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Roaming\\Microsoft\\Templates\\~$Normal.dotm",
+   "ContentType": "pgc"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Size": 162,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\~$acker Absenteeism.doc",
+   "ContentType": "pgc"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.MSO\\36171B9C.png",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\6Z2BCOUL\\config14[1].xml",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Size": 128,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Microsoft\\Office\\ONetConfig\\b6419f5bc3093b5f22142ce454e02407.sig",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Size": 2038,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Microsoft\\Office\\ONetConfig\\b6419f5bc3093b5f22142ce454e02407.xml",
+   "ContentType": "xml"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Size": 446,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\MetaData\\6BADA8974A10C4BD62CC921D13E43B18_1DC6D7385EA816C957BA2B715AC5C442",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Size": 1507,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\Content\\6BADA8974A10C4BD62CC921D13E43B18_1DC6D7385EA816C957BA2B715AC5C442",
+   "ContentType": "der"
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\Cab20EB.tmp",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\Tar20EC.tmp",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600ac7cbdb26b22a0f94cbe6",
+   "Size": 446,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\CryptnetUrlCache\\MetaData\\6BADA8974A10C4BD62CC921D13E43B18_1DC6D7385EA816C957BA2B715AC5C442",
+   "ContentType": "binary"
+  }
+ ],
+ "ProModule": null
+}

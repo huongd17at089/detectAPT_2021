@@ -1,0 +1,42 @@
+{
+ "Name": "3c52e287852b0f9e098db0a3804321196005e408.doc",
+ "Md5": "e1b70cc5ab782fc9a71886e1a11ee085",
+ "UUID": "82186790-7e5e-4025-b64c-b1d2bd6b7c00",
+ "Processes": [
+  {
+   "OID": "60080e386646637010edf5b3",
+   "ProcessID": 2700,
+   "ParentPID": 612,
+   "CommandLine": "\"C:\\Windows\\System32\\rundll32.exe\" C:\\3c52e287852b0f9e098db0a3804321196005e408.doc, DllMain",
+   "Image": "C:\\Windows\\System32\\rundll32.exe",
+   "ProcessType": "Main process",
+   "CreationTimestamp": 1611140663510,
+   "Registry": 0,
+   "Files": 137,
+   "Modules": 56,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "WIN-SYS"
+  }
+ ],
+ "Incidents": [
+  {
+   "ProcessOID": "60080e376646637010edee2b",
+   "ThreatLevel": 1,
+   "MitreAttacks": [
+    "T1085"
+   ]
+  }
+ ],
+ "Ips": [],
+ "Domain": [],
+ "HttpRequests": [],
+ "Threats": [],
+ "Registries": [],
+ "DropFile": [],
+ "ProModule": null
+}

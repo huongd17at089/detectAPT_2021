@@ -1,0 +1,3882 @@
+{
+ "Name": "ACH payment.xlsx",
+ "Md5": "f6c095ef995ccc90ed1b3ab42795bf34",
+ "UUID": "ad9701aa-f43d-4a6f-8991-586c0914b35b",
+ "Processes": [
+  {
+   "OID": "600a226b9cb2ab68f3f050cc",
+   "ProcessID": 1540,
+   "ParentPID": 292,
+   "CommandLine": "\"C:\\Program Files\\Microsoft Office\\Office14\\EXCEL.EXE\" /dde",
+   "Image": "C:\\Program Files\\Microsoft Office\\Office14\\EXCEL.EXE",
+   "ProcessType": "Main process",
+   "CreationTimestamp": 1611276907280,
+   "Registry": 592,
+   "Files": 1426,
+   "Modules": 127,
+   "DroppedFiles": 1,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "OFS"
+  },
+  {
+   "OID": "600a228b9cb2ab68f3f06806",
+   "ProcessID": 2920,
+   "ParentPID": 292,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" ",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Probably manual launch or APC inject",
+   "CreationTimestamp": 1611276939530,
+   "Registry": 179,
+   "Files": 26635,
+   "Modules": 271,
+   "DroppedFiles": 223,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 7,
+   "Scores_Network": true,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a228c9cb2ab68f3f0680a",
+   "ProcessID": 1876,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=crashpad-handler \"--user-data-dir=C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\" /prefetch:7 --monitor-self-annotation=ptype=crashpad-handler \"--database=C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Crashpad\" \"--metrics-dir=C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\" --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=Win32 --annotation=prod=Chrome --annotation=ver=75.0.3770.100 --initial-client-data=0x7c,0x80,0x84,0x78,0x88,0x69bba9d0,0x69bba9e0,0x69bba9ec",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276939671,
+   "Registry": 0,
+   "Files": 86,
+   "Modules": 23,
+   "DroppedFiles": 1,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a228c9cb2ab68f3f0680c",
+   "ProcessID": 2956,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=watcher --main-thread-id=2812 --on-initialized-event-handle=324 --parent-handle=328 /prefetch:6",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276939952,
+   "Registry": 4,
+   "Files": 69,
+   "Modules": 24,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a228c9cb2ab68f3f06beb",
+   "ProcessID": 2512,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=gpu-process --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --gpu-preferences=KAAAAAAAAADgAAAgAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAACgAAAAEAAAAIAAAAAAAAAAoAAAAAAAAADAAAAAAAAAAOAAAAAAAAAAQAAAAAAAAAAAAAAAFAAAAEAAAAAAAAAAAAAAABgAAABAAAAAAAAAAAQAAAAUAAAAQAAAAAAAAAAEAAAAGAAAA --service-request-channel-token=9739274401324627348 --mojo-platform-channel-handle=1008 --ignored=\" --type=renderer \" /prefetch:2",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276940124,
+   "Registry": 0,
+   "Files": 3137,
+   "Modules": 78,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a228c9cb2ab68f3f06bed",
+   "ProcessID": 608,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=network --service-request-channel-token=5124811096850102884 --mojo-platform-channel-handle=1624 /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276940171,
+   "Registry": 18,
+   "Files": 1948,
+   "Modules": 76,
+   "DroppedFiles": 9,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 149,
+   "Scores_Network": true,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a228d9cb2ab68f3f072ce",
+   "ProcessID": 2972,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --instant-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=7612065260601233050 --renderer-client-id=6 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=508 /prefetch:1",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276940749,
+   "Registry": 0,
+   "Files": 1293,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a228d9cb2ab68f3f072d0",
+   "ProcessID": 1628,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10445398844317990372 --renderer-client-id=7 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=2460 /prefetch:1",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276940929,
+   "Registry": 0,
+   "Files": 353,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a228d9cb2ab68f3f072d2",
+   "ProcessID": 2532,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=17327273968950368687 --renderer-client-id=4 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=2548 /prefetch:1",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276941020,
+   "Registry": 0,
+   "Files": 451,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a228f9cb2ab68f3f08feb",
+   "ProcessID": 2400,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=10804612085759170666 --mojo-platform-channel-handle=2580 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276942879,
+   "Registry": 0,
+   "Files": 311,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a228f9cb2ab68f3f08fed",
+   "ProcessID": 2924,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=12212955367184215732 --mojo-platform-channel-handle=3420 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276942914,
+   "Registry": 0,
+   "Files": 322,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22919cb2ab68f3f0af85",
+   "ProcessID": 1524,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --disable-gpu-compositing --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=5438554759190226969 --renderer-client-id=10 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=3556 /prefetch:1",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276945343,
+   "Registry": 0,
+   "Files": 352,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22929cb2ab68f3f0b2c5",
+   "ProcessID": 4088,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=17006566054053053615 --mojo-platform-channel-handle=2352 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276946130,
+   "Registry": 0,
+   "Files": 324,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22929cb2ab68f3f0b2c7",
+   "ProcessID": 2496,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=6275130045206370092 --mojo-platform-channel-handle=3756 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276946193,
+   "Registry": 0,
+   "Files": 322,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22959cb2ab68f3f0c5a9",
+   "ProcessID": 2376,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=11208028074689470459 --mojo-platform-channel-handle=3532 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276948962,
+   "Registry": 0,
+   "Files": 319,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22959cb2ab68f3f0ca8a",
+   "ProcessID": 2720,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=1531730518835342236 --mojo-platform-channel-handle=3368 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276949715,
+   "Registry": 0,
+   "Files": 513,
+   "Modules": 118,
+   "DroppedFiles": 1,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22969cb2ab68f3f0cef0",
+   "ProcessID": 3092,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=8401243469977706069 --mojo-platform-channel-handle=3380 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276950126,
+   "Registry": 0,
+   "Files": 321,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22979cb2ab68f3f0d62f",
+   "ProcessID": 2760,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=8400804838696027692 --mojo-platform-channel-handle=3984 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276950462,
+   "Registry": 0,
+   "Files": 1060,
+   "Modules": 118,
+   "DroppedFiles": 46,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22979cb2ab68f3f0dcac",
+   "ProcessID": 1348,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --disable-gpu-compositing --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=17227350906335469993 --renderer-client-id=17 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=3992 /prefetch:1",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276950923,
+   "Registry": 0,
+   "Files": 441,
+   "Modules": 59,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22979cb2ab68f3f0dcae",
+   "ProcessID": 1508,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=9204270282192772020 --mojo-platform-channel-handle=3868 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276951316,
+   "Registry": 0,
+   "Files": 350,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22989cb2ab68f3f0ef45",
+   "ProcessID": 2372,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=1471217928770629919 --mojo-platform-channel-handle=3812 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276952104,
+   "Registry": 0,
+   "Files": 501,
+   "Modules": 118,
+   "DroppedFiles": 1,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22999cb2ab68f3f0fd31",
+   "ProcessID": 3700,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=2986636206155833976 --mojo-platform-channel-handle=3828 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276952454,
+   "Registry": 0,
+   "Files": 319,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22999cb2ab68f3f0fd33",
+   "ProcessID": 772,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=13742745193459300683 --mojo-platform-channel-handle=3860 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276952776,
+   "Registry": 0,
+   "Files": 1306,
+   "Modules": 118,
+   "DroppedFiles": 63,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a229a9cb2ab68f3f10e6c",
+   "ProcessID": 960,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=7439621917220653907 --mojo-platform-channel-handle=4464 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276953564,
+   "Registry": 0,
+   "Files": 325,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a229a9cb2ab68f3f11a9f",
+   "ProcessID": 2796,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=7638680616854838339 --mojo-platform-channel-handle=3892 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276954283,
+   "Registry": 0,
+   "Files": 484,
+   "Modules": 118,
+   "DroppedFiles": 1,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a229b9cb2ab68f3f1250e",
+   "ProcessID": 1816,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=10926582953151229686 --mojo-platform-channel-handle=3792 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276954685,
+   "Registry": 0,
+   "Files": 322,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a229b9cb2ab68f3f12f38",
+   "ProcessID": 1760,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=gpu-process --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --disable-gpu-sandbox --use-gl=disabled --gpu-preferences=KAAAAAAAAADgAAAgAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAACgAAAAEAAAAIAAAAAAAAAAoAAAAAAAAADAAAAAAAAAAOAAAAAAAAAAQAAAAAAAAAAAAAAAFAAAAEAAAAAAAAAAAAAAABgAAABAAAAAAAAAAAQAAAAUAAAAQAAAAAAAAAAEAAAAGAAAA --service-request-channel-token=12359144456535177917 --mojo-platform-channel-handle=2368 /prefetch:2",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276955126,
+   "Registry": 0,
+   "Files": 379,
+   "Modules": 146,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a229b9cb2ab68f3f12f3b",
+   "ProcessID": 2364,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=11223937257790460773 --mojo-platform-channel-handle=1320 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276955202,
+   "Registry": 0,
+   "Files": 961,
+   "Modules": 118,
+   "DroppedFiles": 40,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a229c9cb2ab68f3f13921",
+   "ProcessID": 1520,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=utility --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --lang=en-US --service-sandbox-type=utility --service-request-channel-token=6160751877074915757 --mojo-platform-channel-handle=3856 --ignored=\" --type=renderer \" /prefetch:8",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276956040,
+   "Registry": 0,
+   "Files": 345,
+   "Modules": 118,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a229f9cb2ab68f3f15137",
+   "ProcessID": 572,
+   "ParentPID": 292,
+   "CommandLine": "\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" ",
+   "Image": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+   "ProcessType": "Probably manual launch or APC inject",
+   "CreationTimestamp": 1611276959244,
+   "Registry": 133,
+   "Files": 994,
+   "Modules": 96,
+   "DroppedFiles": 2,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 3,
+   "Scores_Network": true,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-IE"
+  },
+  {
+   "OID": "600a22a09cb2ab68f3f151f0",
+   "ProcessID": 3572,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --disable-gpu-compositing --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=1409602185640309324 --renderer-client-id=28 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=3596 /prefetch:1",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276959641,
+   "Registry": 0,
+   "Files": 274,
+   "Modules": 59,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22a09cb2ab68f3f151f2",
+   "ProcessID": 2720,
+   "ParentPID": 572,
+   "CommandLine": "\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" SCODEF:572 CREDAT:267521 /prefetch:2",
+   "Image": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276959818,
+   "Registry": 75,
+   "Files": 833,
+   "Modules": 156,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-IE"
+  },
+  {
+   "OID": "600a22a09cb2ab68f3f15934",
+   "ProcessID": 1340,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --disable-gpu-compositing --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10680885435563915921 --renderer-client-id=29 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=2436 /prefetch:1",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276960178,
+   "Registry": 0,
+   "Files": 265,
+   "Modules": 59,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  },
+  {
+   "OID": "600a22a39cb2ab68f3f16f64",
+   "ProcessID": 1704,
+   "ParentPID": 2920,
+   "CommandLine": "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --field-trial-handle=1028,4341408071539312872,16853090719447496709,131072 --enable-features=PasswordImport --disable-gpu-compositing --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=9757177639877723837 --renderer-client-id=30 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=3820 /prefetch:1",
+   "Image": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+   "ProcessType": "Child process",
+   "CreationTimestamp": 1611276962647,
+   "Registry": 0,
+   "Files": 325,
+   "Modules": 59,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "BRW-CHR"
+  }
+ ],
+ "Incidents": [
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "ThreatLevel": 1,
+   "MitreAttacks": [
+    "T1176"
+   ]
+  },
+  {
+   "ProcessOID": "600a22a09cb2ab68f3f151f2",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1012"
+   ]
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1106"
+   ]
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1112"
+   ]
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050c5",
+   "ThreatLevel": 1,
+   "MitreAttacks": null
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1204"
+   ]
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ThreatLevel": 0,
+   "MitreAttacks": null
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "ThreatLevel": 0,
+   "MitreAttacks": null
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1106"
+   ]
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1204"
+   ]
+  },
+  {
+   "ProcessOID": "600a226e9cb2ab68f3f05eb1",
+   "ThreatLevel": 2,
+   "MitreAttacks": [
+    "T1053"
+   ]
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1012"
+   ]
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050c5",
+   "ThreatLevel": 0,
+   "MitreAttacks": null
+  }
+ ],
+ "Ips": [
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "clientservices.googleapis.com",
+   "IP": "74.125.124.94",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 0,
+   "Recv": 0,
+   "Type": 4
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "accounts.google.com",
+   "IP": "172.217.22.109",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1211,
+   "Recv": 3279,
+   "Type": 4
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "clientservices.googleapis.com",
+   "IP": "74.125.124.94",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1019,
+   "Recv": 3639,
+   "Type": 4
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "www.google.com.ua",
+   "IP": "172.217.23.131",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1107,
+   "Recv": 45911,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "fonts.googleapis.com",
+   "IP": "74.125.124.95",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1013,
+   "Recv": 3606,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "www.gstatic.com",
+   "IP": "172.217.23.99",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1585,
+   "Recv": 39916,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "apis.google.com",
+   "IP": "172.217.23.110",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 0,
+   "Recv": 0,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "ogs.google.com.ua",
+   "IP": "172.217.18.174",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1057,
+   "Recv": 19040,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "fonts.gstatic.com",
+   "IP": "172.217.23.163",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 581,
+   "Recv": 3264,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "apis.google.com",
+   "IP": "172.217.23.110",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1203,
+   "Recv": 3266,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "www.google.com",
+   "IP": "172.217.22.100",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1114,
+   "Recv": 3243,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "www.google.lv",
+   "IP": "216.58.208.35",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1412,
+   "Recv": 3633,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "www.google.lv",
+   "IP": "216.58.208.35",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 581,
+   "Recv": 2670,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "www.google.lv",
+   "IP": "216.58.208.35",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 581,
+   "Recv": 2669,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "ogs.google.lv",
+   "IP": "172.217.22.46",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1086,
+   "Recv": 3251,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "",
+   "ProcessName": "",
+   "Domain": "clients2.google.com",
+   "IP": "216.58.206.14",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1715,
+   "Recv": 4436,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "clients2.googleusercontent.com",
+   "IP": "216.58.207.33",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1517,
+   "Recv": 832530,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "ssl.gstatic.com",
+   "IP": "172.217.18.163",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 581,
+   "Recv": 2685,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "ProcessName": "chrome.exe",
+   "Domain": "ssl.gstatic.com",
+   "IP": "172.217.18.163",
+   "Port": 443,
+   "Prot": "tcp",
+   "Send": 1039,
+   "Recv": 3264,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "ProcessName": "iexplore.exe",
+   "Domain": "www.bing.com",
+   "IP": "13.107.21.200",
+   "Port": 80,
+   "Prot": "tcp",
+   "Send": 201,
+   "Recv": 566,
+   "Type": 3
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "ProcessName": "iexplore.exe",
+   "Domain": "www.bing.com",
+   "IP": "13.107.21.200",
+   "Port": 80,
+   "Prot": "tcp",
+   "Send": 0,
+   "Recv": 0,
+   "Type": 3
+  }
+ ],
+ "Domain": [
+  {
+   "Domain": "clientservices.googleapis.com",
+   "Ips": [
+    "74.125.124.94"
+   ],
+   "Status": 1,
+   "Type": 4
+  },
+  {
+   "Domain": "accounts.google.com",
+   "Ips": [
+    "172.217.22.109"
+   ],
+   "Status": 1,
+   "Type": 4
+  },
+  {
+   "Domain": "www.google.com.ua",
+   "Ips": [
+    "172.217.23.131"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "fonts.googleapis.com",
+   "Ips": [
+    "74.125.124.95"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "www.gstatic.com",
+   "Ips": [
+    "172.217.23.99"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "apis.google.com",
+   "Ips": [
+    "172.217.23.110"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "ogs.google.com.ua",
+   "Ips": [
+    "172.217.18.174"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "fonts.gstatic.com",
+   "Ips": [
+    "172.217.23.163"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "www.google.com",
+   "Ips": [
+    "172.217.22.100"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "www.google.lv",
+   "Ips": [
+    "216.58.208.35"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "ogs.google.lv",
+   "Ips": [
+    "172.217.22.46"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "clients2.google.com",
+   "Ips": [
+    "216.58.206.14"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "clients2.googleusercontent.com",
+   "Ips": [
+    "216.58.207.33"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "ssl.gstatic.com",
+   "Ips": [
+    "172.217.18.163"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "dns.msftncsi.com",
+   "Ips": [
+    "131.107.255.255"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "dns.msftncsi.com",
+   "Ips": [],
+   "Status": 0,
+   "Type": 3
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  },
+  {
+   "Domain": "www.bing.com",
+   "Ips": [
+    "13.107.21.200",
+    "204.79.197.200"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "www.bing.com",
+   "Ips": [
+    "204.79.197.200",
+    "13.107.21.200"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "api.bing.com",
+   "Ips": [
+    "13.107.5.80"
+   ],
+   "Status": 1,
+   "Type": 3
+  },
+  {
+   "Domain": "bkhushrf.gb.net",
+   "Ips": [],
+   "Status": 0,
+   "Type": 0
+  }
+ ],
+ "HttpRequests": [
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "ProcessName": "iexplore.exe",
+   "URL": "/favicon.ico",
+   "Method": "GET",
+   "Type": 3
+  }
+ ],
+ "Threats": [],
+ "Registries": [
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\StartupItems",
+   "Value": "73723C0004060000010000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel",
+   "Value": "04060000A62F2D3A59F0D60100000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\StartupItems",
+   "Value": "73723C0004060000010000000000000000000000",
+   "Operation": "delete value",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\StartupItems",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\DocumentRecovery\\1288FF",
+   "Value": "04000000040600003200000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0041004300480020007000610079006D0065006E0074002E0078006C0073007800000000002200000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0001000000000000004028A83B59F0D601FF881200FF88120000000000AC020000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\DocumentRecovery\\1288FF",
+   "Value": "04000000040600003200000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0041004300480020007000610079006D0065006E0074002E0078006C0073007800000000002200000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0001000000000000004028A83B59F0D601FF881200FF88120000000000AC020000001800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109D30000000000000000F01FEC\\Usage",
+   "Value": "1379270695",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109D30000000000000000F01FEC\\Usage",
+   "Value": "1379270840",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\DocumentRecovery\\1288FF",
+   "Value": "04000000040600003200000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0041004300480020007000610079006D0065006E0074002E0078006C0073007800000000002200000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0001000000000000004028A83B59F0D601FF881200FF88120000000000AC020000001800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "Operation": "delete value",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\DocumentRecovery\\1288FF",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\DocumentRecovery",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Resiliency\\DocumentRecovery\\1289AB",
+   "Value": "04000000040600003200000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0041004300480020007000610079006D0065006E0074002E0078006C0073007800000000002200000043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C004C006F00630061006C005C00540065006D0070005C0001000000010000003EA6233A59F0D601AB891200AB89120000000000AC020000640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Place MRU",
+   "Value": "25",
+   "Operation": "delete value",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Place MRU",
+   "Value": "25",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Place MRU",
+   "Value": "[F00000000][T01D56F99396E0A50][O00000000]*C:\\Users\\admin\\Documents\\",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\Place MRU",
+   "Value": "[F00000000][T01D56F99396E0A50][O00000000]*C:\\Users\\admin\\Documents\\",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\File MRU",
+   "Value": "25",
+   "Operation": "delete value",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\File MRU",
+   "Value": "25",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\File MRU",
+   "Value": "[F00000000][T01D56F99396E0A50][O00000000]*C:\\Users\\admin\\Documents\\test.xlsx",
+   "Operation": "delete value",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Excel\\File MRU",
+   "Value": "[F00000000][T01D56F99396E0A50][O00000000]*C:\\Users\\admin\\Documents\\test.xlsx",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\Licensing",
+   "Value": "01000000270000007B39303134303030302D303033442D303030302D303030302D3030303030303046463143457D005A0000004F00660066006900630065002000310034002C0020004F0066006600690063006500500072006F00660065007300730069006F006E0061006C002D00520065007400610069006C002000650064006900740069006F006E000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\BLBeacon",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\BLBeacon",
+   "Value": "2",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\ThirdParty",
+   "Value": "",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\ThirdParty",
+   "Value": "01000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\BLBeacon",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\BrowserExitCodes",
+   "Value": "0",
+   "Operation": "delete value",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\BrowserExitCodes",
+   "Value": "259",
+   "Operation": "delete value",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Google\\Update\\ClientStateMedium\\{8A69D345-D564-463C-AFF1-A69D9E530F96}",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\BrowserExitCodes",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\StabilityMetrics",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "13255750540686625",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "",
+   "Operation": "delete key",
+   "TypeValue": "REG_NONE"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "15B1C3FE35F29528448F36A72A4DFBC58A8083C7190559D25865779166D220A2",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "32B2D59CFD9CE8812FE0D3BC9195E5FF50E094163DC7524E057A9C5B7D5E3EDF",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "2874DB4EDD813B4C0131252825402E55C110303672D88E6C28E5CBAB4C12607A",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "D6B079666F209503A09486C70AC09307652A0F7F783166A999B27C99D0DA79E2",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "1F03A1E70C673E7F6AD8AF3BC8F5AE130135C4DE37A02971F0D585F7DCD9BDAD",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "00175B8120231631976CA8B862A3416996C9373BA3D289F0619DDA992973DDFA",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "63355C14E8C7DF9A075F2EDDEA6F2807DC8166B83F96F4C975B9B6554C6324D7",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "0E265BFED6F1C7D5F0A9BD790C50BB30E78E959631D51EEBB8BB0DE73E65763C",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "04A45240BDA55E8777FA04357712CA6DD942253A21323E4C7D3CCF769B34BFED",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "5D58C2FED93EFDED578B006CB02BBB8DEC329128E2D098172E1316CDD15254DC",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "11A83BB366B69CB9F6E2FF1BFD51AFE9C6A3FE8397D30BFD77EFB71CD2BE006E",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "EE4C31559012A94DAF532F777D94CDFAF51C649DFFD7551E0D43E8F951DF13D4",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\PreferenceMACs\\Default\\extensions.settings",
+   "Value": "A3DCB0D12F5C9A0DB10B71453911535CF04C9ACFB2E83E32A61E750A560F8CDC",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Update\\ClientState\\{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f0680c",
+   "Key": "HKEY_CURRENT_USER\\Software\\Google\\Chrome\\BrowserExitCodes",
+   "Value": "259",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Key": "HKEY_CLASSES_ROOT\\Local Settings\\MuiCache\\13B\\52C64B7E",
+   "Value": "en-US",
+   "Operation": "write",
+   "TypeValue": "REG_MULTI_SZ"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\UrlBlockManager",
+   "Value": "1797602346",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\UrlBlockManager",
+   "Value": "30863449",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\Cache\\Content",
+   "Value": "",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\Cache\\Cookies",
+   "Value": "Cookie:",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\Cache\\History",
+   "Value": "Visited:",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Main",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Connections",
+   "Value": "46000000A5000000010000000000000000000000000000000000000000000000C0E333BBEAB1D301000000000000000000000000020000001700000000000000FE800000000000007D6CB050D9C573F70B000000000000006D00330032005C004D00530049004D004700330032002E0064006C000100000004AA400014AA4000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000C0A8016400000000000000000000000000000000000000000800000000000000805D3F00983740000008000002000000000000600000002060040000B8A94000020000008802000060040000B8A9400004000000F8010000B284000088B64000B84B400043003A000000000000000000000000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Recovery\\Active",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Main\\WindowsSearch",
+   "Value": "F926C35959F0D601",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Main\\WindowsSearch",
+   "Value": "DB0BC45959F0D601",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Main",
+   "Value": "no",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Main",
+   "Value": "2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF20000000200000004003000078020000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Recovery\\PendingRecovery",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "3",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "7",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "E5070100050016000000380000006102",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{761497BB-D6F0-462C-B6EB-D4DAF1D92D43}\\iexplore",
+   "Value": "6",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "3",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "7",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "E5070100050016000000380000006402",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\\iexplore",
+   "Value": "6",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{DBC80044-A445-435B-BC74-9C25C1C588A9}\\iexplore",
+   "Value": "3",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{DBC80044-A445-435B-BC74-9C25C1C588A9}\\iexplore",
+   "Value": "7",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{DBC80044-A445-435B-BC74-9C25C1C588A9}\\iexplore",
+   "Value": "E5070100050016000000380000006502",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Ext\\Stats\\{DBC80044-A445-435B-BC74-9C25C1C588A9}\\iexplore",
+   "Value": "6",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\User Preferences",
+   "Value": "01000000D08C9DDF0115D1118C7A00C04FC297EB010000007CE4EB52D058C046A10B570DDC76E00800000000020000000000106600000001000020000000E35E2A5A578BAF0A7FA242396CA0FBE6597FBE7D06DA372A73CF74A2701150FA000000000E80000000020000200000007A367208219014E8428601E83FD169C19F92BCE3FD435CE22E8730EC5CC55BA6500000008D739303629AC8FA0674071D5BA5DEB78F3E0882323B9CF9C243D259710D05A9C0C2DD81199C7FEC66D5FDF1D6C25DB6A04D954E3E3E8D97F6C9719D0D0EC0871584B09BB4B00BB42D89CB41B4108744400000003A7F0B7FE397C82B49CD53462DF7640C6E191F9AFA1EACAC26B9FDE50A49FCE30D17367D9B09FD0FF29B884E4FBC77E5EFE26F2273AD0091FE9B4BB866E8B7A8",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\EUPP\\DSP",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\User Preferences",
+   "Value": "01000000D08C9DDF0115D1118C7A00C04FC297EB010000007CE4EB52D058C046A10B570DDC76E0080000000002000000000010660000000100002000000090DFD6DF95A104A37F54EA41F99152F48D9CE5F53396B5C2371F4FE1262D0222000000000E8000000002000020000000E61E18252FB98831686A02A67219D4DB0754F8E4EA7F75B4DCB40666A0E4B13C10000000E577EAC29CC06BB5B31B32BB69B2F1AE40000000A53627F274CA7BDF75B996374615D2F9AF462628AD01D748D434CA15A449C00A70891B089FB08E026396C0069B2603D148DAB938260DB97C214D9C4834655E23",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600a22a09cb2ab68f3f151f2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\LowCache\\Content",
+   "Value": "",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a22a09cb2ab68f3f151f2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\LowCache\\Cookies",
+   "Value": "Cookie:",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600a22a09cb2ab68f3f151f2",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\5.0\\LowCache\\History",
+   "Value": "Visited:",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  }
+ ],
+ "DropFile": [
+  {
+   "ProcessOID": "600a226b9cb2ab68f3f050cc",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\CVR82F3.tmp.cvr",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 40,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Crashpad\\settings.dat",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 13,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Last Version",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 4194304,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\BrowserMetrics\\BrowserMetrics-600A228B-B68.pma",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 345,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Site Characteristics Database\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 321,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Sync Data\\LevelDB\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 345,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Site Characteristics Database\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 139,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\data_reduction_proxy_leveldb\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 345,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Site Characteristics Database\\LOG.old~RF130080.TMP",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 321,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Sync Data\\LevelDB\\LOG.old~RF130090.TMP",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 321,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Sync Data\\LevelDB\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 139,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\data_reduction_proxy_leveldb\\LOG.old~RF1300bf.TMP",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 315,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\BudgetDatabase\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 139,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\data_reduction_proxy_leveldb\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 315,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\BudgetDatabase\\LOG.old~RF1300de.TMP",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 315,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\BudgetDatabase\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 355,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Feature Engagement Tracker\\EventDB\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\9f800bf8-09be-427e-99ad-1d5c142484fd.tmp",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\data_reduction_proxy_leveldb\\000048.dbtmp",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 355,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Feature Engagement Tracker\\EventDB\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 8257,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Last Tabs",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 355,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Feature Engagement Tracker\\EventDB\\LOG.old~RF13013c.TMP",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 16,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\data_reduction_proxy_leveldb\\CURRENT",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 16,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\data_reduction_proxy_leveldb\\CURRENT~RF13015b.TMP",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Feature Engagement Tracker\\AvailabilityDB\\LOG.old",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Session Storage\\LOG.old",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Feature Engagement Tracker\\AvailabilityDB\\LOG.old~RF130207.TMP",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Session Storage\\LOG.old~RF130216.TMP",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 369,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Feature Engagement Tracker\\AvailabilityDB\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 195,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Session Storage\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 331,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Platform Notifications\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 331,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Platform Notifications\\LOG.old~RF1302e1.TMP",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 331,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Platform Notifications\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 335,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\shared_proto_db\\metadata\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 335,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\shared_proto_db\\metadata\\LOG.old~RF130330.TMP",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 335,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\shared_proto_db\\metadata\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\shared_proto_db\\LOG.old",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\shared_proto_db\\LOG.old~RF13039d.TMP",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\shared_proto_db\\LOG.old",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 369,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Feature Engagement Tracker\\AvailabilityDB\\LOG",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 380,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Feature Engagement Tracker\\AvailabilityDB\\000003.log",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\ShaderCache\\GPUCache\\data_1",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 270336,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\GPUCache\\data_1",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 179,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Local Storage\\leveldb\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 179,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Local Storage\\leveldb\\LOG.old~RF1308bd.TMP",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 179,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Local Storage\\leveldb\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 399,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Sync Extension Settings\\pkedcjkdefgpdelpbcmbmeomcjbeemfm\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 399,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Sync Extension Settings\\pkedcjkdefgpdelpbcmbmeomcjbeemfm\\LOG.old~RF13094a.TMP",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 399,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Sync Extension Settings\\pkedcjkdefgpdelpbcmbmeomcjbeemfm\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 13414,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Last Session",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600a228b9cb2ab68f3f06806",
+   "Size": 317,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Extension State\\LOG.old",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f0680a",
+   "Size": 1048576,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\CrashpadMetrics.pma",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Size": 41441,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache\\f_000010",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Size": 42026,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache\\f_000011",
+   "ContentType": "compressed"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Size": 34639,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache\\f_000012",
+   "ContentType": "compressed"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Size": 39927,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache\\f_000013",
+   "ContentType": "binary"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Size": 35855,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Cache\\f_000014",
+   "ContentType": "compressed"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\06fcbd14-efcc-484b-87fe-d3cc2acd7833.tmp",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Size": 1253,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\TransportSecurity",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Size": 1253,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\TransportSecurity~RF132fdd.TMP",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a228c9cb2ab68f3f06bed",
+   "Size": 1253,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\TransportSecurity",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22959cb2ab68f3f0ca8a",
+   "Size": 715,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\manifest.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 2895,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\128.png",
+   "ContentType": "image"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 258,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\ar\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 299,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\bg\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 245,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\ca\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 239,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\cs\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 223,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\da\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 236,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\de\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 309,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\el\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 229,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\en_US\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 229,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\en_GB\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 239,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\es\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 239,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\es_419\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 243,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\eu\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 231,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\et\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 237,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\fi\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 232,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\fr\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 240,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\fil\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 258,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\he\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 326,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\hi\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 243,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\hr\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 244,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\hu\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 241,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\id\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 238,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\it\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 273,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\ja\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 261,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\ko\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 265,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\lt\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 238,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\lv\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 234,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\ms\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 222,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\nl\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 218,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\no\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 237,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\pl\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 226,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\pt_BR\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 244,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\pt_PT\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 261,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\ro\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 318,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\ru\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 254,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\sk\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 248,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\sl\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 267,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\sr\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 233,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\sv\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 336,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\th\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 250,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\tr\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 333,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\uk\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 259,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\vi\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 253,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\zh_CN\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 247,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_locales\\zh_TW\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22979cb2ab68f3f0d62f",
+   "Size": 6841,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_6317\\CRX_INSTALL\\_metadata\\verified_contents.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22989cb2ab68f3f0ef45",
+   "Size": 2216,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\manifest.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 18473,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\am\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 21121,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\ar\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 25000,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\bg\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 23180,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\bn\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12597,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\ca\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 13661,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\cs\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12344,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\da\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12525,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\de\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 24564,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\el\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 11710,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\en\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12649,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\es\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12202,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\et\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 21592,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\fa\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12649,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\fi\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12383,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\fil\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 13082,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\fr\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 22254,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\gu\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 22434,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\hi\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12645,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\hr\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 13846,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\hu\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 11883,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\id\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12125,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\it\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 18990,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\iw\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 17229,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\ja\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 24671,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\kn\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 14921,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\ko\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 13327,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\lt\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 13905,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\lv\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 25869,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\ml\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 23062,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\mr\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12143,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\ms\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12194,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\nb\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12162,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\nl\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12900,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\pl\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12716,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\pt\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 13100,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\ro\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 23847,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\ru\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 13835,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\sk\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12760,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\sl\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 23956,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\sr\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 12297,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\sv\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 11969,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\sw\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 24958,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\ta\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 24835,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\te\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 21797,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\th\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 13327,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\tr\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 23265,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\uk\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 14768,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\vi\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 13776,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\zh\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a22999cb2ab68f3f0fd33",
+   "Size": 14071,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_20986\\CRX_INSTALL\\_locales\\zh_TW\\messages.json",
+   "ContentType": "html"
+  },
+  {
+   "ProcessOID": "600a229a9cb2ab68f3f11a9f",
+   "Size": 523,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\manifest.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 216,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\hu\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 226,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\da\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 229,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\de\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 259,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\es\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 276,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\ru\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 254,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\pl\\messages.json",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\lt\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\lv\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\se\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\fr\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\ca\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\fi\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\ko\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\nl\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\pt_PT\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\uk\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\pt_BR\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\sr\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\ja\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\ro\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\no\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\it\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\zh_CN\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\th\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\bg\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\hi\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\zh_TW\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\sk\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\id\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\sl\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\el\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\ar\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\cs\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\hr\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\fil\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\en\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\tr\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_locales\\vi\\messages.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\128.png",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229b9cb2ab68f3f12f3b",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir2920_5319\\CRX_INSTALL\\_metadata\\verified_contents.json",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Size": 237,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.IE5\\6Z2BCOUL\\favicon[1].ico",
+   "ContentType": "image"
+  },
+  {
+   "ProcessOID": "600a229f9cb2ab68f3f15137",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\LocalLow\\Microsoft\\Internet Explorer\\Services\\search_{0633EE93-D776-472f-A0FF-E1416B8B2E3A}.ico",
+   "ContentType": ""
+  }
+ ],
+ "ProModule": null
+}

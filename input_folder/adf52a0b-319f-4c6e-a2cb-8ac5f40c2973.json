@@ -1,0 +1,42 @@
+{
+ "Name": "NG-Opportunity.doc",
+ "Md5": "e87b575b2ddfb9d4d692e3b8627e3921",
+ "UUID": "adf52a0b-319f-4c6e-a2cb-8ac5f40c2973",
+ "Processes": [
+  {
+   "OID": "6009f08ff2e2956981bb516a",
+   "ProcessID": 2644,
+   "ParentPID": 376,
+   "CommandLine": "\"C:\\Windows\\System32\\rundll32.exe\" C:\\ProgramData\\C:\\Users\\admin\\Desktop\\NG-Opportunity.doc,SMain S-7-43-8423-97048307-383378-8483",
+   "Image": "C:\\Windows\\System32\\rundll32.exe",
+   "ProcessType": "Main process",
+   "CreationTimestamp": 1611264142857,
+   "Registry": 0,
+   "Files": 118,
+   "Modules": 56,
+   "DroppedFiles": 0,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "WIN-SYS"
+  }
+ ],
+ "Incidents": [
+  {
+   "ProcessOID": "6009f08ff2e2956981bb49e4",
+   "ThreatLevel": 1,
+   "MitreAttacks": [
+    "T1085"
+   ]
+  }
+ ],
+ "Ips": [],
+ "Domain": [],
+ "HttpRequests": [],
+ "Threats": [],
+ "Registries": [],
+ "DropFile": [],
+ "ProModule": null
+}

@@ -1,0 +1,615 @@
+{
+ "Name": "Letter January 2021.docx",
+ "Md5": "3abf4b9ca37b2fcb385e84a51dd3bd3e",
+ "UUID": "a8c5556c-2565-478e-a5a8-7c5fc1d0eb37",
+ "Processes": [
+  {
+   "OID": "600abb1148aa7015c371a7cc",
+   "ProcessID": 2660,
+   "ParentPID": 356,
+   "CommandLine": "\"C:\\Program Files\\Microsoft Office\\Office14\\WINWORD.EXE\" /n \"C:\\Users\\admin\\AppData\\Local\\Temp\\Letter January 2021.docx\"",
+   "Image": "C:\\Program Files\\Microsoft Office\\Office14\\WINWORD.EXE",
+   "ProcessType": "Main process",
+   "CreationTimestamp": 1611315985126,
+   "Registry": 1872,
+   "Files": 5425,
+   "Modules": 120,
+   "DroppedFiles": 8,
+   "DebugStrings": 0,
+   "EventsCounters_Network": 0,
+   "Scores_Network": false,
+   "Autostart": false,
+   "LowAccess": false,
+   "FileType": "OFS"
+  }
+ ],
+ "Incidents": [
+  {
+   "ProcessOID": "600abb1648aa7015c371c83b",
+   "ThreatLevel": 2,
+   "MitreAttacks": [
+    "T1053"
+   ]
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "ThreatLevel": 0,
+   "MitreAttacks": null
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "ThreatLevel": 0,
+   "MitreAttacks": [
+    "T1012"
+   ]
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7c4",
+   "ThreatLevel": 0,
+   "MitreAttacks": null
+  }
+ ],
+ "Ips": [],
+ "Domain": [],
+ "HttpRequests": [],
+ "Threats": [],
+ "Registries": [
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "62783700640A0000010000000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "Off",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Common\\LanguageResources\\EnabledLanguages",
+   "Value": "On",
+   "Operation": "write",
+   "TypeValue": "REG_SZ"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109D30000000000000000F01FEC\\Usage",
+   "Value": "1379270718",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109D30000000000000000F01FEC\\Usage",
+   "Value": "1379270840",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109D30000000000000000F01FEC\\Usage",
+   "Value": "1379270841",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData\\S-1-5-18\\Products\\00004109F10021400000000000F01FEC\\Usage",
+   "Value": "1379270657",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word",
+   "Value": "640A0000AC556336B4F0D60100000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "3A7A3700640A000004000000000000008C00000001000000840000003E0043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C0052006F0061006D0069006E0067005C004D006900630072006F0073006F00660074005C00540065006D0070006C0061007400650073005C004E006F0072006D0061006C002E0064006F0074006D00000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "3A7A3700640A000004000000000000008C00000001000000840000003E0043003A005C00550073006500720073005C00610064006D0069006E005C0041007000700044006100740061005C0052006F0061006D0069006E0067005C004D006900630072006F0073006F00660074005C00540065006D0070006C0061007400650073005C004E006F0072006D0061006C002E0064006F0074006D00000000000000",
+   "Operation": "delete value",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "667A3700640A000002000000000000008E00000001000000500000003200000063003A005C00700072006F006700720061007E0031005C006D006900630072006F0073007E0031005C006F0066006600690063006500310034005C00670065006E006B006F002E0064006C006C0000006D006900630072006F0073006F0066007400200077006F00720064002000D0C6E0ACC0C9200094CD00AC200030AEA5B20000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "667A3700640A000002000000000000008E00000001000000500000003200000063003A005C00700072006F006700720061007E0031005C006D006900630072006F0073007E0031005C006F0066006600690063006500310034005C00670065006E006B006F002E0064006C006C0000006D006900630072006F0073006F0066007400200077006F00720064002000D0C6E0ACC0C9200094CD00AC200030AEA5B20000",
+   "Operation": "delete value",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "0",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap",
+   "Value": "1",
+   "Operation": "write",
+   "TypeValue": "REG_DWORD"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\14.0\\Word\\Resiliency\\StartupItems",
+   "Value": "2C7F3700640A000006000000010000008600000002000000760000000400000063003A005C00750073006500720073005C00610064006D0069006E005C0061007000700064006100740061005C006C006F00630061006C005C00740065006D0070005C006C006500740074006500720020006A0061006E007500610072007900200032003000320031002E0064006F0063007800000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "020B0604020202020204",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02070309020205020404",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "05050102010706020507",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "05000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02030600000101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02010600030101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02020500000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "020B0600000101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02010609060101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02020509000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "020B0600000101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02040604050505020304",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02020603050405020304",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "020B0304020202020204",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02040503050203030202",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "020B0604020202020204",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "010A0502050306030303",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "020B0502040204020203",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "020B0502040204020203",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "020B0502040204020203",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "020B0502040204020203",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "020B0502040204020203",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "03080600000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02040503050406030204",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "020B0604020202020204",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "020B0604030504040204",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "00000000000000000000",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02030600000101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02030609000101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02030609000101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02030600000101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02030600000101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02030609000101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "02030609000101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Shared Tools\\Panose",
+   "Value": "01010101010101010101",
+   "Operation": "write",
+   "TypeValue": "REG_BINARY"
+  }
+ ],
+ "DropFile": [
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\CVR44E2.tmp.cvr",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Size": 162,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Roaming\\Microsoft\\Templates\\~$Normal.dotm",
+   "ContentType": "pgc"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Size": 162,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\~$tter January 2021.docx",
+   "ContentType": "pgc"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Temp\\mso4B1D.tmp",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.MSO\\CF0711FD.wmf",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Size": 0,
+   "Nocontent": true,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Content.MSO\\163BB7DA.wmf",
+   "ContentType": ""
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Size": 2,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Roaming\\Microsoft\\UProof\\ExcludeDictionaryEN0409.lex",
+   "ContentType": "text"
+  },
+  {
+   "ProcessOID": "600abb1148aa7015c371a7cc",
+   "Size": 2,
+   "Nocontent": false,
+   "EOF": true,
+   "Filename": "C:\\Users\\admin\\AppData\\Roaming\\Microsoft\\UProof\\ExcludeDictionaryFR040c.lex",
+   "ContentType": "text"
+  }
+ ],
+ "ProModule": null
+}
