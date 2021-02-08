@@ -120,14 +120,21 @@ def converse_to_csv(input_folder,save_path):
     tasks = glob.glob(input_folder + "/*.json")
     data = []
     for t in tasks:
-        data = data + list(handel_single_task(t).values())
+        try:
+            processes = list(handel_single_task(t).values())
+            data = data + processes
+        except:
+            continue
     df = pd.DataFrame.from_dict(data)
     df = df.drop(['domains'], axis=1)
     ex = ["task", "CreationTimestamp", "label"]
+    df["Scores_Network"] = df["Scores_Network"].astype(int)
+    df["Autostart"] = df["Autostart"].astype(int)
+    df["LowAccess"] = df["LowAccess"].astype(int)
     df = df.reindex(columns=(ex[:-1] + list([a for a in df.columns if not a in ex]) + [ex[-1]]))
     df.to_csv(save_path, index= False)
 
-converse_to_csv("input_folder","final_demo.csv")
+converse_to_csv("test","abc.csv")
 
 
 
