@@ -2,6 +2,7 @@ import pandas as pd
 import json
 from builtins import any
 import glob
+import os
 
 # constant
 features = ["ip", "domain", "http_request"]
@@ -104,8 +105,10 @@ def handel_priority(processes, threats):
 
 def handel_single_task(path):
     task_id = path.strip(".json").split("\\")[-1]
-    print(task_id)
+    if(os.path.getsize(path) / 1024 < 2) :
+        raise
     data = json.load(open(path, encoding="utf8"))
+    print(task_id)
     processes = init(task_id,data["Processes"])
     handle_ip(processes, data["Ips"])
     handel_domain(processes, data["Domain"])
@@ -118,6 +121,7 @@ def handel_single_task(path):
 
 def converse_to_csv(input_folder,save_path):
     tasks = glob.glob(input_folder + "/*.json")
+
     data = []
     for t in tasks:
         try:
@@ -126,13 +130,16 @@ def converse_to_csv(input_folder,save_path):
         except:
             continue
     df = pd.DataFrame.from_dict(data)
-    df = df.drop(['domains'], axis=1)
-    ex = ["task", "CreationTimestamp", "label"]
-    df["Scores_Network"] = df["Scores_Network"].astype(int)
-    df["Autostart"] = df["Autostart"].astype(int)
-    df["LowAccess"] = df["LowAccess"].astype(int)
-    df = df.reindex(columns=(ex[:-1] + list([a for a in df.columns if not a in ex]) + [ex[-1]]))
-    df.to_csv(save_path, index= False)
+    if(df.shape[0] > 0) :
+        df = df.drop(['domains'], axis=1)
+        ex = ["task", "CreationTimestamp", "label"]
+        df["Scores_Network"] = df["Scores_Network"].astype(int)
+        df["Autostart"] = df["Autostart"].astype(int)
+        df["LowAccess"] = df["LowAccess"].astype(int)
+        df = df.reindex(columns=(ex[:-1] + list([a for a in df.columns if not a in ex]) + [ex[-1]]))
+        df.to_csv(save_path, index= False)
+    else :
+        print("empty")
 
 converse_to_csv("test","abc.csv")
 
