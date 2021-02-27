@@ -1,0 +1,3 @@
+[console_scripts]
+any = any.scripts:main
+
